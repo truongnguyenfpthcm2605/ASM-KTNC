@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite changePass" parallel="false">
+	<test name="changepass">
+		<groups>
+			<run>
+				<include name="changepass"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.ApplicationFastFood" />
+		</classes>
+	</test>
+</suite>

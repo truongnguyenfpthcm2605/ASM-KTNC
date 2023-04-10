@@ -1,0 +1,3432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="78" passed="72" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T16:34:40 ICT" name="suite updateInforUser" finished-at="2023-04-10T16:34:48 ICT" duration-ms="8058">
+    <groups>
+      <group name="updateInforUser">
+        <method signature="ApplicationFastFood.testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" name="testUpdateInformation" class="test.ApplicationFastFood"/>
+      </group> <!-- updateInforUser -->
+    </groups>
+    <test started-at="2023-04-10T16:34:40 ICT" name="updateInforUser" finished-at="2023-04-10T16:34:48 ICT" duration-ms="8058">
+      <class name="test.ApplicationFastFood">
+        <test-method is-config="true" signature="testBeforeClassUpdateInfor()[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:40 ICT" name="testBeforeClassUpdateInfor" finished-at="2023-04-10T16:34:42 ICT" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeClassUpdateInfor -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:42 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:42 ICT" duration-ms="79" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name cann't be empty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.ApplicationFastFood.testUpdateInformation(ApplicationFastFood.java:5407)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:42 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:42 ICT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d56f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to bigger 5 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:42 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:42 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kh j]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to bigger 5 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:42 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:42 ICT" duration-ms="76" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kj%#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to bigger 5 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:42 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23&%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to bigger 5 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24 5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to bigger 5 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[^% *]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to bigger 5 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VnExpress tin tức mới nhất
+ - Thông tin nhanh & 
+chính xác được cập 
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[name has to lower 50 character]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth cann't be empty]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[year/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[year$#/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*&  $#/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023$#/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gk  $#/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gk84$#/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[84  $#/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[year2023/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:43 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:43 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/hh/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/month23/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/*&  $#/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/03$#/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/gk  $#/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/gk84$#/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/84  $#/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/year2023/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/28/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023//01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/day]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/month23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:44 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/*&  $#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:44 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/03$#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/gk  $#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/gk84$#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/84  $#]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/year2023]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/34]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023%01%01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20230101s]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023d01h01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023 01 01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023101102]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y23/m1/d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:45 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/m1/d1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:45 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/@1/ 5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/@1/ 6d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/@1/ 7@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/@1/88]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/@12/09]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/ 1/@1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/32]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/18/23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/-4/-1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2023/@1/ 14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/@1/ 15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/01/2023]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Birth malformed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone cann't be empty]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:46 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jfdfhdfh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:46 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/02]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[trtrt9485]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/03]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[346fd 9394 gf]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/04]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dhdh 8458 %$#]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/05]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[356 7688]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/06]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3857 %$]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/07]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[%%$ *&^ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/08]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[274579]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/09]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3488585874978987]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[05576778903453]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phone malformed]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address cann't be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0377379249]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ẹhrtetr]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address has to bigger 10 character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0377379249]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[fdg fgg d]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address has to bigger 10 character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0377379249]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[fjsd424]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address has to bigger 10 character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:47 ICT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0377379249]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[456546sfjkdfjkjkhfshjkfh
+sdhjkfshf358w378587
+4534534534563]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address has to lower 50 character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method signature="testUpdateInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:47 ICT" name="testUpdateInformation" data-provider="testDataUpdateInformation" finished-at="2023-04-10T16:34:48 ICT" duration-ms="78" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nguyễn Văn Anh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2023/01/16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0377379249]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[thường sử dụng 
+đơn vị hành chính và 
+tên phố để miêu tả, cùng
+WDadasdasdsaaeaeewewe]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Address has to lower 50 character]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateInformation -->
+        <test-method is-config="true" signature="testAfterClassUpdateInfor()[pri:0, instance:test.ApplicationFastFood[frame0,151,57,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]" started-at="2023-04-10T16:34:48 ICT" name="testAfterClassUpdateInfor" finished-at="2023-04-10T16:34:48 ICT" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterClassUpdateInfor -->
+      </class> <!-- test.ApplicationFastFood -->
+    </test> <!-- updateInforUser -->
+  </suite> <!-- suite updateInforUser -->
+</testng-results>

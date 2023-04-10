@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="main-suite" parallel="false">
+	<suite-files>
+
+		<suite-file path="./changepass.xml" />
+		<suite-file path="./updateInfor.xml" />
+		<suite-file path="./login.xml" />
+		<suite-file path="./insertproduct.xml" />
+		<suite-file path="./updateproduct.xml" />
+		<suite-file path="./register.xml" />
+	</suite-files>
+	
+</suite>

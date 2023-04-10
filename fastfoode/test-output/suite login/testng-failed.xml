@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite login]">
+  <test thread-count="5" name="login(failed)">
+    <groups>
+      <run>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.ApplicationFastFood">
+        <methods>
+          <include name="testLogin" invocation-numbers="17 27"/>
+        </methods>
+      </class> <!-- test.ApplicationFastFood -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [suite login] -->

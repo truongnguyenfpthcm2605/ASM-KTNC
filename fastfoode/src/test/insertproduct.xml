@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite insertproduct" parallel="false">
+	<test name="insertproduct">
+		<groups>
+			<run>
+				<include name="insertproduct"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.ApplicationFastFood" />
+		</classes>
+	</test>
+</suite>

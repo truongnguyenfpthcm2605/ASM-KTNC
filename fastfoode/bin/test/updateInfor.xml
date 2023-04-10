@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite updateInforUser" parallel="false">
+	<test name="updateInforUser">
+		<groups>
+			<run>
+				<include name="updateInforUser"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="test.ApplicationFastFood" />
+		</classes>
+	</test>
+</suite>

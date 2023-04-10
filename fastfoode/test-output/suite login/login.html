@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 10 15:26:25 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2957 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>login </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, 13102003Thien, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phuthien1, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 1234.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien2003<>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien2003, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, 13102003Thien<>, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 1234.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Levophuthien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 123456.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien2003<>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 1234.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, 123456.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien2003<>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien2003, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Phuthien2003<>, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien2003, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien2003, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Phuthien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien1, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, levophuThien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Thien2, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien2003, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien2003, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 12345.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien2003, , , Password cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phuthien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien 123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , Password cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 1234.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Phuthien203, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, 123.0, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), 123 456, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu123, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien 123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: phuthien123, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Thien phu, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa)</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testLogin()'><b>testLogin</b><br>Test class: test.ApplicationFastFood<br>Parameters: levophuThien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame2,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+</table><p>
+</body>
+</html>

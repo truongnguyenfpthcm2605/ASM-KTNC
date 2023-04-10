@@ -1,0 +1,494 @@
+<html>
+<head>
+<title>TestNG:  register</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>register</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>83/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 10 15:14:59 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35206 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>register </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thienphu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Thienphu, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien123, , , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thigmail, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien<>123, Confirm password is incorrect, thien<>123, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, thien<>mail, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien123, , , Password cann't be empty, , Confirm Password cann't be empty, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, thie1, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: tthien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, 125.0, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, thien, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thie1, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien hi, password is incorrect, thien  , Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, thien hi, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien123, , , password is incorrect, thien, Confirm password is incorrect, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien123, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien124, Confirm password is incorrect, thien123, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thien, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien  , password is incorrect, thien hi, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: ThienPhu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, ThienPhu, Confirm password is incorrect, ThienPhu, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien , User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Thien123, , , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien hi, Confirm password is incorrect, pthiuen, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: phu thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: ThienPhu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), ThienPhu, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm password is incorrect, ThienPhu, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien123, , thien , Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, thien phu le@gmail.com, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien124, , Thienn, password is incorrect, tthien123, Confirm password is incorrect, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien  , Confirm password is incorrect, thien phu le@gmail.com, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thienphu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thienphu, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien123, , , password is incorrect, thien, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien<123>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, thien, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, Thien123, , , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, ThienPhu, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), ThienPhu, , ThienPhu, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, thmail, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thien<>mail, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, thien123, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thien phu le@gmail.com, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , Password cann't be empty, , Confirm Password cann't be empty, thien phu le@gmail.com, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thienphu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, Thienphu, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, Thien123, , Thien123, , , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, Thien123, , , Confirm Password cann't be empty, thien123, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien<123>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien123, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, thien123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: ThienPhu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), ThienPhu, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), ThienPhu, , , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien124, , Thien123, password is incorrect, tthein, Confirm password is incorrect, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien, Confirm password is incorrect, 123.0, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, 124.0, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien hi, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien123, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thien123, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien hi, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, thien, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , Password cann't be empty, , Confirm Password cann't be empty, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , Password cann't be empty, , Confirm Password cann't be empty, thien<>mail, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: theen, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, Thien123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien hi, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien122, , thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien, , Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien123, , thien , Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , password is incorrect, thien<>123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien , User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), Thien<123>, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Phuthien123, , Phuthien124, , Phuthien124, , Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>28</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, Thien<123>, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, thien, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thienphu, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien<123>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Password cann't be empty, , Confirm Password cann't be empty, thien, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien , Confirm password is incorrect, thien<>mail, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: thien123, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), thien123, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien123, , , Password cann't be empty, , Confirm Password cann't be empty, thien, Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien<>123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, password is incorrect, thie1, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, Thien123, Confirm password is incorrect, thien , Email malformed. Email phải có @gmail.com</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , Password cann't be empty, , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien , password is incorrect, thien<>123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, thien hi, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, Thien, Confirm password is incorrect, Phuthienlevo@gmail.com, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: Thien<123>, User malformed. User phải có 6 ký tự.(Bao gồm số và ký tự hoa), tyhien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, thien, Password malformed. Pass phải có 6 ký tự.(Bao gồm số và ký tự hoa), , Confirm Password cann't be empty, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, Thien<123>, password is incorrect, thien , Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testRegister()'><b>testRegister</b><br>Test class: test.ApplicationFastFood<br>Parameters: , User cann't be empty, , password is incorrect, Thien123, Confirm password is incorrect, , Email cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame5,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+</table><p>
+</body>
+</html>

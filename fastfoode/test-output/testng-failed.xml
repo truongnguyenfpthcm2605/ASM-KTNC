@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite updateInforUser]">
+  <test thread-count="5" name="updateInforUser(failed)">
+    <groups>
+      <run>
+        <include name="updateInforUser"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.ApplicationFastFood">
+        <methods>
+          <include name="testUpdateInformation" invocation-numbers="0"/>
+          <include name="testBeforeClassUpdateInfor"/>
+          <include name="testAfterClassUpdateInfor"/>
+        </methods>
+      </class> <!-- test.ApplicationFastFood -->
+    </classes>
+  </test> <!-- updateInforUser(failed) -->
+</suite> <!-- Failed suite [suite updateInforUser] -->

@@ -1,0 +1,484 @@
+<html>
+<head>
+<title>TestNG:  changepass</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>changepass</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>81/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 10 15:26:09 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>9 seconds (9962 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>changepass </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuongA 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuongcuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA 7, PassCurrent malformed. Phải có chữ hoa và số, cuongcuongA 7, NewPass malformed. Phải có chữ hoa và số, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongÁ 7, PassCurrent malformed. Phải có chữ hoa và số, cuongcuongÁ 7, NewPass malformed. Phải có chữ hoa và số, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuong, PassCurrent malformed. Phải có chữ hoa và số, cuongcuong, NewPass malformed. Phải có chữ hoa và số, cuongcuong, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: a df#, PassCurrent has to bigger 6 character, , NewPass cann't be empty, a df#, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuongcuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuongcuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, as df, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong cuongcuongcuongcuongcuong, NewPass has to lower 40 character, asd!, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuong, NewPass malformed. Phải có chữ hoa và số, cuongcuong, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, as df, NewPass has to bigger 6 character, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, as df, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong cuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongA 7, NewPass malformed. Phải có chữ hoa và số, cuongcuongA 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: a df#, PassCurrent has to bigger 6 character, a df#, NewPass has to bigger 6 character, a df#, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuongÁ 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuong, PassCurrent malformed. Phải có chữ hoa và số, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, asdf, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuongcuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, asdf, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character, , NewPass cann't be empty, asdf, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character, asdf, NewPass has to bigger 6 character, asdf, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongÁ 7, NewPass malformed. Phải có chữ hoa và số, cuongcuongÁ 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongA7, , , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuong, NewPass malformed. Phải có chữ hoa và số, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA 7, PassCurrent malformed. Phải có chữ hoa và số, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongA7, , cuongcuongA7, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character, cuongcuongcuongcuongcuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, , NewPass cann't be empty, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, a df#, NewPass has to bigger 6 character, a df#, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuong, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuongcuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, cuongcuongcuongcuongcuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong cuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: as df, PassCurrent has to bigger 6 character, as df, NewPass has to bigger 6 character, as df, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuongcuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, asdf, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: a df#, PassCurrent has to bigger 6 character, a df#, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuongcuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, cuongcuongcuongcuongcuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuongcuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character, asdf, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA7, , cuongcuongA7, , , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA 7, PassCurrent malformed. Phải có chữ hoa và số, , NewPass cann't be empty, cuongcuongA 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, cuongcuongcuongcuong cuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: a df#, PassCurrent has to bigger 6 character, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongÁ 7, PassCurrent malformed. Phải có chữ hoa và số, , NewPass cann't be empty, cuongcuongÁ 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuong, PassCurrent malformed. Phải có chữ hoa và số, cuongcuong, NewPass malformed. Phải có chữ hoa và số, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongA 7, NewPass malformed. Phải có chữ hoa và số, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA7, , , NewPass cann't be empty, cuongcuongA7, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: as df, PassCurrent has to bigger 6 character, as df, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: as df, PassCurrent has to bigger 6 character, , NewPass cann't be empty, as df, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character, , NewPass cann't be empty, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: a df#, PassCurrent has to bigger 6 character, cuongcuongcuongcuong cuongcuongcuongcuongcuong, NewPass has to lower 40 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, asdf, NewPass has to bigger 6 character, cuongcuongcuongcuongcuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongÁ 7, PassCurrent malformed. Phải có chữ hoa và số, cuongcuongÁ 7, NewPass malformed. Phải có chữ hoa và số, cuongcuongÁ 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: as df, PassCurrent has to bigger 6 character, asdf, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuong, PassCurrent malformed. Phải có chữ hoa và số, , NewPass cann't be empty, cuongcuong, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuongcuongcuong cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, as df, NewPass has to bigger 6 character, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuongcuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, , NewPass cann't be empty, cuongcuongcuongcuongcuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: asdf, PassCurrent has to bigger 6 character,  d f, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, a df#, NewPass has to bigger 6 character, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA 7, PassCurrent malformed. Phải có chữ hoa và số, cuongcuongA 7, NewPass malformed. Phải có chữ hoa và số, cuongcuongA 7, Confirm malformed. Phải có chữ hoa và số</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongA7, , , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongÁ 7, NewPass malformed. Phải có chữ hoa và số, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: as df, PassCurrent has to bigger 6 character, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuongA7, </td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, NewPass has to lower 40 character, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, as df, NewPass has to bigger 6 character, as df, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, asdf, NewPass has to bigger 6 character, asdf, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongÁ 7, PassCurrent malformed. Phải có chữ hoa và số, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, PassCurrent has to lower 40 character, , NewPass cann't be empty, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, cuongcuongcuongcuong& #&cuongcuongcuongcuongcuong, NewPass has to lower 40 character, asd!, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, , Confirm cann't be empty</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, a df#, Confirm has to bigger 6 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+<tr>
+<td title='test.ApplicationFastFood.testChangePass()'><b>testChangePass</b><br>Test class: test.ApplicationFastFood<br>Parameters: , PassCurrent cann't be empty, , NewPass cann't be empty, cuongcuongcuongcuongcuongcuongcuongcuongcuong, Confirm has to lower 40 character</td>
+<td></td>
+<td>0</td>
+<td>test.ApplicationFastFood[frame0,23,0,1235x702,invalid,hidden,layout=java.awt.BorderLayout,title=,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,7,30,1221x665,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]</td></tr>
+</table><p>
+</body>
+</html>
